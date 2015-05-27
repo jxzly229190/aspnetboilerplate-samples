@@ -99,6 +99,9 @@
     <Compile Include="People\Dtos\PersonDto.cs" />
     <Compile Include="People\IPersonAppService.cs" />
     <Compile Include="People\PersonAppService.cs" />
+    <Compile Include="Pets\Dtos\GetAllPetsOutput.cs" />
+    <Compile Include="Pets\Dtos\PetDto.cs" />
+    <Compile Include="Pets\PetAppService.cs" />
     <Compile Include="SimpleTaskSystemApplicationModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\Dtos\CreateTaskInput.cs" />

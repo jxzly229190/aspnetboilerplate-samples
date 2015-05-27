@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using Abp.EntityFramework;
 using SimpleTaskSystem.People;
+using SimpleTaskSystem.Pets;
 using SimpleTaskSystem.Tasks;
 
 namespace SimpleTaskSystem.EntityFramework
@@ -11,6 +12,8 @@ namespace SimpleTaskSystem.EntityFramework
         public virtual IDbSet<Task> Tasks { get; set; }
 
         public virtual IDbSet<Person> People { get; set; }
+
+        public virtual IDbSet<Pet> Pets { get; set; } 
 
         public SimpleTaskSystemDbContext()
             : base("Default")

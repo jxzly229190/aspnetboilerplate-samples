@@ -82,6 +82,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pets\Pet.cs" />
     <Compile Include="SimpleTaskSystemConsts.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="SimpleTaskSystemCoreModule.cs" />

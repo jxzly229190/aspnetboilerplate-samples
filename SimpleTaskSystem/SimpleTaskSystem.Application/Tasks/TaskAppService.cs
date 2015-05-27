@@ -48,6 +48,7 @@ namespace SimpleTaskSystem.Tasks
             Logger.Info("Updating a task for input: " + input);
 
             //Retrieving a task entity with given id using standard Get method of repositories.
+            
             var task = _taskRepository.Get(input.TaskId);
 
             //Updating changed properties of the retrieved task entity.

@@ -1,4 +1,5 @@
 using SimpleTaskSystem.People;
+using SimpleTaskSystem.Pets;
 
 namespace SimpleTaskSystem.Migrations
 {
@@ -22,6 +23,11 @@ namespace SimpleTaskSystem.Migrations
                 new Person {Name = "Thomas More"},
                 new Person {Name = "George Orwell"},
                 new Person {Name = "Douglas Adams"}
+                );
+
+            context.Pets.AddOrUpdate(p => p.Name,
+                new Pet() {Name = "Kitty"},
+                new Pet() {Name = "Bolb"}
                 );
         }
     }
